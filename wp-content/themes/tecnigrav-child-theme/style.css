@@ -4,15 +4,114 @@ Theme URI: http: http://guilhermewp.com.br/
 Description: Child theme is the recommended way to modify an existing theme if you want to make changes in the theme.
 Author: ThemeMotive
 Author URI: http://guilhermewp.com.br/
-Template: converio
+Template: tecnigrav
 Version: 1.0.0
 */
 
 @import url("../tecnigrav/style.css");
 
 /*Add your custom styles below:*/
+.content {padding:1px 0 0px;}
+.topo-containter {max-width: 1500px; background-color: #28166f; }
+.topo-barra {max-width: 1110px; margin: 0 auto; text-align: right; background-color: #28166f; color: #fff; padding: 6px;}
+#lang_sel_list {height: 20px;  float:left; z-index: 99; text-align: left; background:#28166F;}
+#lang_sel_list ul a, #lang_sel_list ul a:visited {background:#28166F;}
+@media screen and (min-width: 981px) {
+header .title img {
+  max-height: 55px!important;
+}
+}
+/******submenu remove description***/
+header span.mi-desc {display: none!important;}
 
+.owl-theme .owl-controls .owl-buttons div {background: #fff!important; border: 1px solid #2c3e50;}
+/*Add your custom styles below:*/
+/*SLIDER*/
+#rev_slider_2_1 > ul > li.tp-revslider-slidesli.active-revslide.current-sr-slide-visible > div.tp-caption.bota-home-slider1.tp-fade.tp-resizeme.start > a {color: #fff; text-decoration: none;}
 
+.col3 {
+  width: 32.333%;
+}
+body > div.root > footer > section.widgets.columns > article:nth-child(1) {width: 50%%;}
 
+body > div.root > section.content.wide > div.full-width-bg.white\2c.brown\2c.purple > div.content-container > section > div.content-container > p.slogan {font-size: 27px;}
+body > div.root > section.content.wide > div.full-width-bg.white\2c.brown\2c.purple > div.content-container > section > div.content-container {padding: 29px 0;}
+a.btn.light.large {background-color: #f5f5f5;}
+.map-content {display: none;}
+/*body > div.root > section > section > div.content-container {padding-top: 50px;}*/
+/*******SLIDERS**********/
+.tp-caption a {color: #fff;}
+.map-frame {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.tp-caption a:hover, .tp-caption a:focus  {color: #fff;}
+footer {margin-top: -10px;}
+.banners {background: #000; z-index: 999;}
+body > div > div.map-frame > footer > section.widgets.columns > article.widget.col.col4.widget_nav_menu {padding-left: 88px;}
+div.tp-rightarrow.tparrows.default.round {right: 0px!important;}
+div.tp-leftarrow.tparrows.default.round {left: 0px!important;}
+/*box contato*/
+.dados-contato {float: right; position: fixed; background-attachment: fixed; background-color: #f5f5f5; z-index: 99;
+/*top: 50%;*/
+bottom: 0%;
+right: 0%;
+box-shadow: -2px 2px 6px #000;
+padding: 10px;
+}
+.fa {
+  padding: 0;
+  font-size: 20px;
+  padding-right: 0px;
+}
+body > div.root > div.dados-contato > div.sup > span {padding-left: 3px;}
+.dados-contato li {list-style: none; text-align: center; color: #28166f;}
 
+.cota {background-color: #f1c40f; color: #28166f; padding: 9px;}
+.cota:hover {background-color: rgb(255,114,0);   padding-top: 8px;}
+.titulo-float {font-style: italic;}
+.telfloat {text-align: left!important; padding-bottom: 4px!important;}
+.cota {clear: both; box-shadow: 2px 2px 2px;}
+.sup {font-size: 14px; color:#28166f; font-weight: bold; padding-bottom: 7px;}
+.cota a {font-weight: bold; text-decoration: none; color: #28166f; padding: 5px 0 5px 0;}
+.fa {font-size: 42px; color: #28166f;}
+.iconfloat{
+  width: 2%;
+  float: left;
+}
+.sup {width: 82%; float: right;}
+.iconfloat .sup {display: inline-block;}
+@media screen and (max-width: 768px) {
+.dados-contato {
+  display: none!important;
+}
+}
+.wpcf7 .wpcf7-form input[type="text"], .wpcf7 .wpcf7-form input[type="email"], .wpcf7 .wpcf7-form input[type="url"], .wpcf7 .wpcf7-form input[type="date"], .wpcf7 .wpcf7-form input[type="number"], .wpcf7 .wpcf7-form input[type="range"], .wpcf7 .wpcf7-form span.select, .wpcf7 .wpcf7-form span.file-input {
+    width: 90%;
+    max-width: 134px;
+    float: right;
+}
+.wpcf7 .wpcf7-form>p {display:inline-block;}
+.wpcf7 .wpcf7-form textarea {max-width: 778px;
+    width: 778px;}
+body > div.root > section.content.wide > section > article.col.col3 {margin-top:29px;}
 
+/*****CAROUSEL - IMG PRODUCTS****/
+div.grid_no_animation a.wpb_pro_img_url {
+  min-height: 235px;
+  max-height: 235px;
+}
+#owl-demo-feature > div.owl-controls.clickable > div > div.owl-prev > i, #owl-demo-feature > div.owl-controls.clickable > div > div.owl-next > i {font-size: 21px; font-weight: bold;}
+/*******PAGINA DE PRODUTOS******/
+.reverse .main {float: left;}
+.reverse aside {display: none;}
+.shopsingleleftsidebar .product_meta {display: none;}
+
+/************BOTÃO E CARROSEL PRODUTOS*********************/
+.grid figcaption a, div.grid_no_animation figcaption a.button {display: none;}
+body > div.root > section.content.wide > div:nth-child(2) > h3 {color: #bbb; font-weight: bold;}
+.owl-carousel .owl-wrapper-outer {padding-bottom: 35px;}
+
+/********SLOGAN********/
+body > div.root > section.content.wide > div.full-width-bg.white\2c.brown\2c.purple > div.content-container > section > div.content-container > p.slogan {font-size: 23px!important;}
